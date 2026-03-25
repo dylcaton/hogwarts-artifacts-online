@@ -50,4 +50,6 @@ public class ArtifactService {
                 .orElseThrow(() -> new ArtifactNotFoundException(artifactId));
         this.artifactRepository.deleteById(artifactId);
     }
+
+
 }

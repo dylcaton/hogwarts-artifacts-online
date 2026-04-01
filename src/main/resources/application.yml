@@ -6,6 +6,10 @@ spring:
     driver-class-name: org.h2.Driver
   jpa:
     show-sql: true
+  security:
+    user:
+      name: admin
+      password: password
 api:
   endpoint:
     base-url: /api/v1
